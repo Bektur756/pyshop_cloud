@@ -1,0 +1,674 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2021-08-13T14:46:38.981Z",
+    "user": "admin@admin.com",
+    "content_type": 6,
+    "object_id": "test1@mail.com",
+    "object_repr": "test1@mail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 6,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 6,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 6,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 6,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add product review",
+    "content_type": 8,
+    "codename": "add_productreview"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change product review",
+    "content_type": 8,
+    "codename": "change_productreview"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete product review",
+    "content_type": 8,
+    "codename": "delete_productreview"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view product review",
+    "content_type": 8,
+    "codename": "view_productreview"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 10,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 10,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 10,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 10,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add Token",
+    "content_type": 11,
+    "codename": "add_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change Token",
+    "content_type": 11,
+    "codename": "change_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete Token",
+    "content_type": 11,
+    "codename": "delete_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view Token",
+    "content_type": 11,
+    "codename": "view_token"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add token",
+    "content_type": 12,
+    "codename": "add_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change token",
+    "content_type": 12,
+    "codename": "change_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete token",
+    "content_type": 12,
+    "codename": "delete_tokenproxy"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view token",
+    "content_type": 12,
+    "codename": "view_tokenproxy"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "account",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "product",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "product",
+    "model": "productreview"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "order",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "order",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "token"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "authtoken",
+    "model": "tokenproxy"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8nz5pfti2ybypcwarwwzzwwdoo42ybkg",
+  "fields": {
+    "session_data": ".eJxVzEEOwiAQBdC7sDakZQqIK-PeM5CBGWzVQlLalfHutqYL3czi__fnJTwuc--XypMfSJwE0jjk8_fKWEZx-BUB44PzxuiO-VZWkedpCHIjcm-rvBbi52W3fw96rP26Zu3omJRDi4YjBA1JAwNa17CN0LbkjA3QuVZrozqNlJxq1hgapRSBeH8AtG48ng:1mFcIs:vCSuXxCEgDGwmcqEL8BEeFOAu_pPl8vYvDHN8XLjguQ",
+    "expire_date": "2021-08-30T13:05:22.788Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "4a15ffe0bcdbc5c8cab285e3317aa7fce8394673",
+  "fields": {
+    "user": "admin@admin.com",
+    "created": "2021-08-16T13:49:52.158Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "b7db1a005388355abd4b253b0dde7fca2a3deb32",
+  "fields": {
+    "user": "test@gmail.com",
+    "created": "2021-08-16T13:34:13.423Z"
+  }
+},
+{
+  "model": "account.user",
+  "pk": "admin@admin.com",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$GC4P0IXuEhhVWglYjjoEhx$eQVuQ58bIXbyy97c3E4pKY/KHGFC1WWxZqTZI+7ozKU=",
+    "last_login": "2021-08-16T13:05:22.783Z",
+    "name": "admin",
+    "last_name": "",
+    "is_active": true,
+    "is_staff": true,
+    "activation_code": ""
+  }
+},
+{
+  "model": "account.user",
+  "pk": "test@gmail.com",
+  "fields": {
+    "password": "pbkdf2_sha256$260000$ukuTrkZTdjlRX8YNSEc92l$sFG8QFITs8KU4W9J5srVt2t4ka/4MqwECflBZ55+kK4=",
+    "last_login": null,
+    "name": "test",
+    "last_name": "",
+    "is_active": true,
+    "is_staff": false,
+    "activation_code": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 1,
+  "fields": {
+    "title": "Samsung Galaxy Note 10+",
+    "description": "Производитель\tSamsung\t\r\nДата выпуска\tАвгуст 2019\t\r\nОперационная система\tAndroid 9.0 Pie\t\r\nГарантия (месяцев)\t12",
+    "price": "69990.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 2,
+  "fields": {
+    "title": "IPhone XS Max",
+    "description": "Производитель\tApple\t\r\nДата выпуска\t12 сентября 2018\t\r\nОперационная система\tiOS 12\t\r\nГарантия (месяцев)\t12",
+    "price": "78990.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 3,
+  "fields": {
+    "title": "OnePlus Nord N10 5G",
+    "description": "Производитель\tOnePlus\t\r\nДата выпуска\tОктябрь 2020\t\r\nОперационная система\tOxygenOS 10.5 (Android 10)",
+    "price": "23900.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 4,
+  "fields": {
+    "title": "Honor 8А",
+    "description": "Производитель\tHonor\t\r\nДата выпуска\tЯнварь 2019\t\r\nОперационная система\tAndroid 9.0 (Pie) EMUI 9.0.1",
+    "price": "9890.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 5,
+  "fields": {
+    "title": "Samsung Galaxy A72",
+    "description": "Производитель\tSamsung\t\r\nДата выпуска\tМарт 2021\t\r\nОперационная система\tAndroid 11",
+    "price": "37990.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 6,
+  "fields": {
+    "title": "Xiaomi Redmi Note 9",
+    "description": "Производитель\tXiaomi\t\r\nДата выпуска\tМай 2020\t\r\nОперационная система\tMIUI V11 (Android 10)\t\r\nГарантия (месяцев)\t6",
+    "price": "15900.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.product",
+  "pk": 8,
+  "fields": {
+    "title": "Samsung A21",
+    "description": "Average model",
+    "price": "15000.00",
+    "image": ""
+  }
+},
+{
+  "model": "product.productreview",
+  "pk": 1,
+  "fields": {
+    "product": 6,
+    "author": "test@gmail.com",
+    "text": "the product is very good.",
+    "rating": 5,
+    "created_at": "2021-08-17T13:33:49.376Z"
+  }
+}
+]

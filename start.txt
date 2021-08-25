@@ -1,0 +1,8 @@
+1. Создаем директорию проекта
+2. Создаем виртуаьное окружение
+3. Создаем файл requirments.txt, куда указываем используемые библиотеки
+4. Устанавливаем библиотеки при помощи pip3 install -r requirments.txt
+5. В PyCharm открываем настройки: File-> Setting-> Projects -> Python Interpreter и выбираете версию Python из окружения
+6. Проверить, что окружение активировано в терминале PyCharm
+7. Создаем Django-проект django-admin startproject название_проекта .
+8. Создаем нужные приложения python3 manage.py startapp название_приложенияplsq
